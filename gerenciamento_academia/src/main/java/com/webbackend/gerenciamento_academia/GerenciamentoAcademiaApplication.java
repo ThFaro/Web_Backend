@@ -40,4 +40,22 @@ SELECT a.*
 FROM alunos a
 JOIN aluno_funcionario af ON a.id = af.aluno_id
 WHERE af.funcionario_id = 2;
+
+
+                                Exemplos de testes para pessoas:
+SHOW COLUMNS FROM pessoas;
+
+INSERT INTO pessoas (nome, salario) VALUES
+('Ana', 3500.00),
+('Bruno', 2500.00),
+('Carlos', 1800.00),
+('Daniela', 5000.00),
+('Eduardo', 1000.00),
+('Fernanda', 3000.00);
+
+SELECT * FROM pessoas WHERE salario > 3000;
+
+SELECT * FROM pessoas WHERE salario <= 2500;
+
+SELECT * FROM pessoas WHERE nome LIKE 'An%';
 */
