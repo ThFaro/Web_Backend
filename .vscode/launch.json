@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GerenciamentoAcademiaApplication<gerenciamento_academia>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.webbackend.gerenciamento_academia.GerenciamentoAcademiaApplication",
+            "projectName": "gerenciamento_academia",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
