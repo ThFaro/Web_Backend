@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LombokApplication",
+            "request": "launch",
+            "mainClass": "com.webbackend.lombok.LombokApplication",
+            "projectName": "lombok"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-GerenciamentoAcademiaApplication<gerenciamento_academia>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

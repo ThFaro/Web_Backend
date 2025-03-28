@@ -1,15 +1,19 @@
-package com.webbackend.gerenciamento_academia.models;
+package com.webbackend.lombok.models;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "pessoas")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 public class Pessoa {
 
     @Id

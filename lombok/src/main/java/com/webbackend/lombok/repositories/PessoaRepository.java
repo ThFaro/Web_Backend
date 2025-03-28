@@ -1,6 +1,6 @@
-package com.webbackend.gerenciamento_academia.repositories;
+package com.webbackend.lombok.repositories;
 
-import com.webbackend.gerenciamento_academia.models.Pessoa;
+import com.webbackend.lombok.models.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
