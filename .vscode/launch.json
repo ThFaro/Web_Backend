@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PetshopApplication",
+            "request": "launch",
+            "mainClass": "com.webbackend.petshop.PetshopApplication",
+            "projectName": "petshop"
+        },
+        {
+            "type": "java",
+            "name": "SupermercadoApplication",
+            "request": "launch",
+            "mainClass": "com.webbackend.supermercado.SupermercadoApplication",
+            "projectName": "supermercado"
+        },
+        {
+            "type": "java",
             "name": "LombokApplication",
             "request": "launch",
             "mainClass": "com.webbackend.lombok.LombokApplication",
