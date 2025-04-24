@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ac2Application",
+            "request": "launch",
+            "mainClass": "com.webbackend.ac2.Ac2Application",
+            "projectName": "ac2"
+        },
+        {
+            "type": "java",
             "name": "DesignPatternApplication",
             "request": "launch",
             "mainClass": "com.webbackend.design_pattern.DesignPatternApplication",
