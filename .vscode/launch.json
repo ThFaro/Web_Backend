@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DesignPatternApplication",
+            "request": "launch",
+            "mainClass": "com.webbackend.design_pattern.DesignPatternApplication",
+            "projectName": "design_pattern"
+        },
+        {
+            "type": "java",
             "name": "PetshopApplication",
             "request": "launch",
             "mainClass": "com.webbackend.petshop.PetshopApplication",
