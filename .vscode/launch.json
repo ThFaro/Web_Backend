@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TratamentoErrosApplication",
+            "request": "launch",
+            "mainClass": "com.webbackend.tratamento_erros.TratamentoErrosApplication",
+            "projectName": "tratamento-erros"
+        },
+        {
+            "type": "java",
             "name": "Ac2Application",
             "request": "launch",
             "mainClass": "com.webbackend.ac2.Ac2Application",
