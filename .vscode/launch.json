@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BeanValidation02Application",
+            "request": "launch",
+            "mainClass": "com.webbackend.bean_validation02.BeanValidation02Application",
+            "projectName": "bean_validation02"
+        },
+        {
+            "type": "java",
+            "name": "BeanValidation01Application",
+            "request": "launch",
+            "mainClass": "com.webbackend.bean_validation01.BeanValidation01Application",
+            "projectName": "bean_validation01"
+        },
+        {
+            "type": "java",
             "name": "TratamentoErrosApplication",
             "request": "launch",
             "mainClass": "com.webbackend.tratamento_erros.TratamentoErrosApplication",
